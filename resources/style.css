@@ -4,8 +4,9 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-
 }
+
+<!-- HEADER -->
 
 header {
   display: flex;
@@ -18,14 +19,11 @@ header {
   top: 0;
   align-items: center;
   justify-content: space-between;
-
 }
 
 header .logo  {
   padding-left: 10px;
   height: 50px;
-
-
 }
 
 header nav {
@@ -34,7 +32,6 @@ header nav {
 
 nav span {
   padding: 10px;
-
 }
 
 span a {
@@ -51,7 +48,6 @@ span a {
   margin: 0 auto;
   align-items: center;
   position: relative;
-
 }
 
 .content {
@@ -70,4 +66,55 @@ span a {
 
 .content h4 {
   margin-top: 0px;
+}
+
+#month {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 114px;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.teacontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teacontent h4 {
+  margin: 10px 0 20px 0;
+}
+
+.teacontent h4 {
+  margin-top: 0px;
+}
+
+.steeping {
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+
+}
+
+.steeping img {
+  height: 200px;
+  width: 300px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  padding-top: 10px;
+  font-weight: bold;
 }
