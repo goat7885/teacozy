@@ -4,9 +4,11 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  height: 2854px;
+  width: 1600px;
 }
 
-<!-- HEADER -->
+
 
 header {
   display: flex;
@@ -117,4 +119,85 @@ span a {
 span {
   padding-top: 10px;
   font-weight: bold;
+}
+
+#locations {
+  display: flex;
+  top: 135px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../resources/images/img-locations-background.jpg);
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+}
+ .spots {
+   padding: 50px 0px 0px 0px;
+ }
+
+ #stores {
+   display: inline-flex;
+   justify-content: space-around;
+   top: -10px;
+   position: relative;
+ }
+
+ .locbox {
+   display: flex;
+   height: 280px;
+   width: 300px;
+   background-color: black;
+   opacity: 1;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 20px;
+   margin-left: 20px;
+   padding-top: -5px;
+   justify-content: space-around;
+   align-content: space-around;
+ }
+
+ .locbox h3 {
+   margin: 5px 0px 0px 0px;
+ }
+
+ .locbox span {
+   padding: 0px 0px 15px 0px;
+   font-weight: normal;
+ }
+
+footer {
+  display: flex;
+  position: relative;
+  top: 135px;
+  height: 275px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactinfo {
+  margin-top: -15px;
+  font-weight: normal;
+}
+
+.contactname {
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  width: 100%;
 }
